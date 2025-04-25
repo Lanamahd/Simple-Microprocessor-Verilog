@@ -40,9 +40,11 @@ This project implements a basic **microprocessor system** using Verilog, consist
 
 ### Simulation Steps
 1. Compile all `.v` files:
+    ```bash
    iverilog -o processor_tb alu.v reg_file.v mp_top.v alu_tb.v regFile_tb.v
 
-2.   Run simulation: 
+3.   Run simulation:
+      ```bash
      vvp processor_tb
 
  ## Testing
